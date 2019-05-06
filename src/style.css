@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('assets/iransans.ttf')
+}
+@font-face {
+    font-family: 'myFont-med';
+    src: url('assets/IRANSans_Medium.ttf')
+}
+body{
+    font-family: myFont;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+*:focus {
+    outline: none;
+}
+button:focus {outline:0;}
+.text-pur{
+    color: rgba(155,29,82,0.96);
+}
+nav .col-lg-1{
+    width: 50%!important;
+}
+.navbar-res{
+    width: 50%!important;
+}
+.btn-menures{
+    /*width: 50%!important;*/
+    float: left
+}
+.navbar-toggler-ic{
+    background-image: url("./assets/Group 129.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+/*......................menu..........................*/
+.menu{
+    height: 56px;
+}
+.nav-link{
+    color: black!important;
+    font-size: 12px;
+}
+.div-sign{
+
+}
+.btn-menu{
+    height: 30px;
+    width: 76px;
+    font-size: 12px;
+    border-radius: 20px;
+
+}
+.btn-sign{
+    border: none;
+    color: white;
+    background-color: rgba(155,29,82,0.96);
+}
+.btn-log{
+    border: solid rgba(155,29,82,0.96) 1px;
+    color: rgba(155,29,82,0.96);
+    background-color: white;
+
+}
+/*........................bg1.........................*/
+.sec1{
+    padding-top: 180px;
+}
+.sec2{
+
+    background-color: rgba(0,0,0,0.38);
+    height:73px;
+}
+
+.search-sec{
+   background-image: url("assets/image_placeholder.png");
+    /*background-attachment: scroll;*/
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height:600px;
+}
+.search-bar{
+    position: relative;
+    padding-top: 30px;
+}
+.inp-search{
+    width: 574px;
+    height: 52px;
+    border: none;
+    border-radius: 15px;
+}
+ .inp-search::placeholder{
+     padding-right: 18px;
+ }
+ .btn-res-col{
+     position: relative;
+     bottom: 47px;
+     right: 260px;
+ }
+.btn-search{
+    height: 44px;
+    width: 45px;
+    background-color: rgba(155,29,82,0.96);
+    border: none;
+    border-radius: 10px;
+}
+
+
+.btn-price{
+    color: white;
+    background-color:rgba(45,113,193,0.96);
+    border:none;
+    border-radius: 4px;
+    width: 160px;
+    height: 40px;
+    font-size: 13px;
+
+}
+
+.text-section{
+    padding:25px 0px;
+}
+.btn-app{
+    padding-top: 40px;
+}
+
+.sec3{
+    background-color: rgba(241,239,240,0.96);
+}
+/*................................selectCity...........*/
+.sel-cit{
+    width: 416px;
+    height: 50px;
+    border-radius: 10px;
+}
+.col-sel-cit{
+    padding-top: 50px;
+    padding-right: 90px;
+}
+
+/*..........................image res..........*/
+
+.image-col {
+    padding-top: 50px;
+}
+.img-res{
+padding-top: 4px;
+}
+
+/*...............footer......................*/
+.footer{
+    background-color: #002752;
+    margin-top: 160px;
+    background-image: url("assets/footer-bg.png");
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    height: 300px
+}
+.footer-col{
+    /*margin-right: 20px;*/
+}
+.footer-link a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    padding-top: 15px;
+
+}
+/*........................................*/
+.btn-price-res{
+    display: none;
+    color: white;
+    background-color:rgba(45,113,193,0.96);
+    border:none;
+    border-radius: 4px;
+    width: 104px;
+    height: 30px;
+    font-size: 11px;
+
+}
+.text-price{
+    padding:30px 0px;
+}
+.text-price-res{
+    display: none;
+
+}
+/*...................media query............*/
+
+@media screen and (max-width: 576px){
+    .inp-search{
+        width: 260px;
+        height: 36px;
+        border-radius: 5px;
+    }
+    .text-btn{
+        text-align: center;
+    }
+    .text-wid{
+        width: 50%!important;
+    }
+    .btn-price{
+        display: none;
+    }
+    .btn-search{
+        height: 31px;
+        width: 39px;
+        border-radius: 5px;
+    }
+    .btn-res-col{
+        position: relative;
+        bottom: 33px;
+        right: 105px;
+
+    }
+
+    .btn-price-res{
+        display:inline-block;
+    }
+    .text-price{
+        display: none;
+    }
+    .text-price-res{
+        display: inline-block;
+
+    }
+    .sec2{
+        height: 94px;
+    }
+    .res-sq1{
+        height: 105px;
+        width: 130px;
+    }
+    .res-sq2{
+        height: 224px;
+        width: 265px;
+    }
+    .img-res{
+        padding: 0px;
+    }
+    .res-sq3{
+        width: 265px;
+        height: 105px;
+    }
+
+    .sel-cit{
+        width: 260px;
+        height: 32px;
+        border-radius: 8px;
+    }
+    .img-res{
+        padding: 4px;
+    }
+    .img-mob-res{
+
+    }
+    .col-sel-cit{
+        padding-right: 0px;
+        text-align: center;
+    }
+}
