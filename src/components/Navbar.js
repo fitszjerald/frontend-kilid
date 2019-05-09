@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/dark-logo.png'
-
+import {Link} from 'react-router-dom'
 
 class Navbar extends React.Component{
     render(){
@@ -23,7 +23,7 @@ class Navbar extends React.Component{
                                 <div className="collapse navbar-collapse" id="navbarNav">
                                     <ul className="navbar-nav mr-auto">
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">خرید</a>
+                                            <Link className="nav-link" to="/">خرید</Link>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link" href="#">رهن واجاره</a>

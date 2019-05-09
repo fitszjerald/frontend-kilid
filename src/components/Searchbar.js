@@ -38,7 +38,7 @@ class Searchbar extends React.Component{
                  <div className="search-bar">
                    <input id='id' onChange={this.handlechange} className="inp-search rtl" type="search" placeholder="نام محله، منطقه و یا ایستگاه مترو مورد نظر را وارد کنید"/>
                     <div className="btn-res-col" >
-                      <button type='submit' className="btn-search"><img src={Bgimg} /></button>
+                    <Link to={`/search/${this.state.id}`}><button type='submit' className="btn-search"><img src={Bgimg} /></button></Link>
                     </div>
                  </div>
                 </form>
